@@ -1,13 +1,1 @@
-﻿
-package {
-//a helper class whose sole purpose is to add the slerp property
-//I use this for the sake of brevity, but for production code
-//you would move this into a new ActionScript file
-	import org.papervision3d.cameras.Camera3D;
-	
-	public class CameraWithSlerp extends Camera3D {
-		public var slerp:Number = 0;
-	}
-
-}
-
+﻿/** Created by Eli Muir (Synapse LLC)*	http://www.synapse.com*	http://wallofcool.synapse.com*	* Version 1.0*	Date Changed: 07/29/2010*/	/** 	* a helper class to add the slerp property	*/package org.synapse {	import org.papervision3d.cameras.Camera3D;		public class CameraWithSlerp extends Camera3D {		public var slerp:Number = 0;	}}
